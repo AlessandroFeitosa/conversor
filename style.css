@@ -1,0 +1,163 @@
+/* -------------- VARIÁVEIS --------------- */
+:root {
+    --background: #f2f2f2;
+    --background-select: #f9f9f9;
+    --background-entrada: #fff;
+    --border-select: #ccc;
+    --font-color-select: #444;
+    --border-hover-select: #888;
+    --border-focus-select: #2e86de;
+    --border-form: #ccc;
+    --main-gap: 3rem;
+    --font-main: 'Questrial', sans-serif;
+    --font-secondary: 'Chivo Mono', monospace;
+}
+/* -------------- VARIÁVEIS --------------- */
+
+/* -------------- FONTS --------------- */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@900&family=MuseoModerno:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap&?family=Questrial&display=swap');
+/* -------------- FONTS --------------- */
+
+/* -------------- RESET --------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -------------- RESET --------------- */
+
+/* -------------- GERAIS --------------- */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: var(--font-main);
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 2px 2px 2px var(--border-form);
+    font-size: 4rem;
+}
+
+a{
+    color: var(--border-focus-select);
+    text-decoration: none;
+}
+
+/* -------------- GERAIS --------------- */
+
+.conteudo{
+    width:fit-content;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.entrada{
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--background-entrada);
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: .5rem;
+    border: 1px solid var(--border-form);
+    text-align: left;
+}
+
+.saida{
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--background-entrada);
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-form);
+}
+
+
+.selecao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.input-number{
+    width: 12rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: .7rem;
+}
+
+label {
+    flex-basis: 12rem;
+    font-weight: bold;
+}
+
+select {
+    width: 30rem;
+    padding: 10px;
+    border: 1px solid var(--border-select);
+    border-radius: 4px;
+    background-color: var(--background-select);
+    color: var(--font-color-select);
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+select:hover {
+    border-color: var(--border-hover-select);
+}
+
+select:focus {
+    border-color: var(--border-focus-select);
+    box-shadow: 0 0 0 2px #3975c5c2;
+}
+
+select option {
+    background-color: var(--background-select);
+    color: var(--font-color-select);
+}
+
+.input-number[readonly]{
+    background-color: var(--background);
+    border: 1px solid var(--border-select);
+    border-radius: 5px;
+}
+
+.igual{
+    font-size: 5rem;
+}
+
+.arredondamento{
+    display: flex;
+    justify-content: center;
+}
+
+#text-decimais{
+    font-size: 1.5rem;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+}
+
+.contatos{
+    font-size: 1.2rem;
+    color: var(--border-hover-select);
+}
