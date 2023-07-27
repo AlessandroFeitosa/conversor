@@ -161,3 +161,8 @@ select option {
     font-size: 1.2rem;
     color: var(--border-hover-select);
 }
+
+.label-menor{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
