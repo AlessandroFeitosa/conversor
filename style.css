@@ -12,6 +12,7 @@
     --font-main: 'Questrial', sans-serif;
     --font-secondary: 'Chivo Mono', monospace;
 }
+
 /* -------------- VARIÁVEIS --------------- */
 
 /* -------------- FONTS --------------- */
@@ -24,6 +25,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* -------------- RESET --------------- */
 
 /* -------------- GERAIS --------------- */
@@ -44,15 +46,15 @@ h1 {
     font-size: 4rem;
 }
 
-a{
+a {
     color: var(--border-focus-select);
     text-decoration: none;
 }
 
 /* -------------- GERAIS --------------- */
 
-.conteudo{
-    width:fit-content;
+.conteudo {
+    width: fit-content;
     height: 100vh;
     margin: 0 auto;
     text-align: left;
@@ -61,11 +63,11 @@ a{
     text-align: center;
 }
 
-.container{
+.container {
     text-align: center;
 }
 
-.entrada{
+.entrada {
     width: 50rem;
     margin: 0 auto;
     padding: 2rem;
@@ -77,7 +79,7 @@ a{
     text-align: left;
 }
 
-.saida{
+.saida {
     width: 50rem;
     margin: 0 auto;
     padding: 2rem;
@@ -88,15 +90,15 @@ a{
 }
 
 
-.selecao{
+.selecao {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:1rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.input-number{
+.input-number {
     width: 12rem;
     font-size: 2rem;
     font-weight: bold;
@@ -134,22 +136,22 @@ select option {
     color: var(--font-color-select);
 }
 
-.input-number[readonly]{
+.input-number[readonly] {
     background-color: var(--background);
     border: 1px solid var(--border-select);
     border-radius: 5px;
 }
 
-.igual{
+.igual {
     font-size: 5rem;
 }
 
-.arredondamento{
+.arredondamento {
     display: flex;
     justify-content: center;
 }
 
-#text-decimais{
+#text-decimais {
     font-size: 1.5rem;
     display: inline;
     align-items: center;
@@ -157,12 +159,21 @@ select option {
     width: 15rem;
 }
 
-.contatos{
+.contatos {
     font-size: 1.2rem;
     color: var(--border-hover-select);
 }
 
-.label-menor{
+.label-menor {
     font-size: 1.4rem;
     font-weight: lighter;
+}
+
+.comandos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-troca {
+    cursor: pointer;
 }

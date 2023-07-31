@@ -18,7 +18,7 @@
     "sistema": "SI",
     "categoria": "Dimensões",
     "tipo": "Linear",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
   "2": {
@@ -29,7 +29,7 @@
     "sistema": "SI",
     "categoria": "Dimensões",
     "tipo": "Linear",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
   "3": {
@@ -62,7 +62,7 @@
     "sistema": "SI",
     "categoria": "Dimensões",
     "tipo": "Linear",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
   "6": {
@@ -73,7 +73,7 @@
     "sistema": "SI",
     "categoria": "Dimensões",
     "tipo": "Linear",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
   "7": {
@@ -84,7 +84,7 @@
     "sistema": "SI",
     "categoria": "Dimensões",
     "tipo": "Linear",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
   "8": {
@@ -242,10 +242,10 @@
     "obs": ""
   },
   "22": {
-    "nome": "Pés (feet) Quadrado",
+    "nome": "Pé (feet) Quadrado",
     "coeficiente": 0.09290304,
     "sigla": "ft²",
-    "nick": "Pés (feet) Quadrado (ft²)",
+    "nick": "Pé (feet) Quadrado (ft²)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Área",
@@ -253,10 +253,10 @@
     "obs": ""
   },
   "23": {
-    "nome": "Polegadas (inch) Quadrado",
+    "nome": "Polegada (inch) Quadrada",
     "coeficiente": 0.00064516,
     "sigla": "in²",
-    "nick": "Polegadas (inch) Quadrado (in²)",
+    "nick": "Polegada (inch) Quadrada (in²)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Área",
@@ -264,10 +264,10 @@
     "obs": ""
   },
   "24": {
-    "nome": "Milha (mile) Quadrado",
+    "nome": "Milha (mile) Quadrada",
     "coeficiente": 2589988.110336,
     "sigla": "mi²",
-    "nick": "Milha (mile) Quadrado (mi²)",
+    "nick": "Milha (mile) Quadrada (mi²)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Área",
@@ -275,10 +275,10 @@
     "obs": ""
   },
   "25": {
-    "nome": "Jarda (yard) Quadrado",
+    "nome": "Jarda (yard) Quadrada",
     "coeficiente": 0.83612736,
     "sigla": "yd²",
-    "nick": "Jarda (yard) Quadrado (yd²)",
+    "nick": "Jarda (yard) Quadrada (yd²)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Área",
@@ -396,10 +396,10 @@
     "obs": ""
   },
   "36": {
-    "nome": "Pés (feet) Cúbico",
+    "nome": "Pé (feet) Cúbico",
     "coeficiente": 0.028316846592,
     "sigla": "ft³",
-    "nick": "Pés (feet) Cúbico (ft³)",
+    "nick": "Pé (feet) Cúbico (ft³)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Volume",
@@ -407,10 +407,10 @@
     "obs": ""
   },
   "37": {
-    "nome": "Polegadas (inch) Cúbico",
+    "nome": "Polegada (inch) Cúbica",
     "coeficiente": 0.000016387064,
     "sigla": "in³",
-    "nick": "Polegadas (inch) Cúbico (in³)",
+    "nick": "Polegada (inch) Cúbica (in³)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Volume",
@@ -418,10 +418,10 @@
     "obs": ""
   },
   "38": {
-    "nome": "Milha (mile) Cúbico",
+    "nome": "Milha (mile) Cúbica",
     "coeficiente": 4168181825.44058,
     "sigla": "mi³",
-    "nick": "Milha (mile) Cúbico (mi³)",
+    "nick": "Milha (mile) Cúbica (mi³)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Volume",
@@ -429,10 +429,10 @@
     "obs": ""
   },
   "39": {
-    "nome": "Jarda (yard) Cúbico",
+    "nome": "Jarda (yard) Cúbica",
     "coeficiente": 0.764554857984,
     "sigla": "yd³",
-    "nick": "Jarda (yard) Cúbico (yd³)",
+    "nick": "Jarda (yard) Cúbica (yd³)",
     "sistema": "British",
     "categoria": "Dimensões",
     "tipo": "Volume",
@@ -502,7 +502,7 @@
     "sistema": "SI",
     "categoria": "Dimensões",
     "tipo": "Ângulo",
-    "frequente": false,
+    "frequente": true,
     "obs": ""
   },
   "46": {
@@ -513,7 +513,7 @@
     "sistema": "SI",
     "categoria": "Dimensões",
     "tipo": "Ângulo",
-    "frequente": false,
+    "frequente": true,
     "obs": ""
   },
   "47": {
@@ -535,7 +535,7 @@
     "sistema": "SI",
     "categoria": "Massa",
     "tipo": "Massa",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
   "49": {
@@ -627,6 +627,61 @@
     "obs": ""
   },
   "57": {
+    "nome": "g/m³",
+    "coeficiente": 0.001,
+    "sigla": "g/m³",
+    "nick": "g/m³ (g/m³)",
+    "sistema": "SI",
+    "categoria": "Massa",
+    "tipo": "Densidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "58": {
+    "nome": "Libra pé cúbico",
+    "coeficiente": 1728,
+    "sigla": "lb/ft³",
+    "nick": "Libra pé cúbico (lb/ft³)",
+    "sistema": "British",
+    "categoria": "Massa",
+    "tipo": "Densidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "59": {
+    "nome": "Newton por metro cúbico",
+    "coeficiente": 1,
+    "sigla": "N/m³",
+    "nick": "Newton por metro cúbico (N/m³)",
+    "sistema": "SI",
+    "categoria": "Massa",
+    "tipo": "Peso específico",
+    "frequente": false,
+    "obs": ""
+  },
+  "60": {
+    "nome": "Quilonewton por metro cúbico",
+    "coeficiente": 1000,
+    "sigla": "kN/m³",
+    "nick": "Quilonewton por metro cúbico (kN/m³)",
+    "sistema": "SI",
+    "categoria": "Massa",
+    "tipo": "Peso específico",
+    "frequente": false,
+    "obs": ""
+  },
+  "61": {
+    "nome": "Quilograma força por metro cúbico",
+    "coeficiente": 9.80665,
+    "sigla": "kgf/m³",
+    "nick": "Quilograma força por metro cúbico (kgf/m³)",
+    "sistema": "-",
+    "categoria": "Massa",
+    "tipo": "Peso específico",
+    "frequente": false,
+    "obs": ""
+  },
+  "62": {
     "nome": "Segundo",
     "coeficiente": 1,
     "sigla": "s",
@@ -637,7 +692,7 @@
     "frequente": true,
     "obs": ""
   },
-  "58": {
+  "63": {
     "nome": "Milisegundo",
     "coeficiente": 0.001,
     "sigla": "ms",
@@ -648,7 +703,7 @@
     "frequente": false,
     "obs": ""
   },
-  "59": {
+  "64": {
     "nome": "Minuto",
     "coeficiente": 60,
     "sigla": "min",
@@ -659,7 +714,7 @@
     "frequente": true,
     "obs": ""
   },
-  "60": {
+  "65": {
     "nome": "Hora",
     "coeficiente": 3600,
     "sigla": "h",
@@ -670,7 +725,7 @@
     "frequente": true,
     "obs": ""
   },
-  "61": {
+  "66": {
     "nome": "Dia",
     "coeficiente": 86400,
     "sigla": "d",
@@ -681,7 +736,7 @@
     "frequente": true,
     "obs": ""
   },
-  "62": {
+  "67": {
     "nome": "Mês",
     "coeficiente": 2629800,
     "sigla": "mês",
@@ -692,7 +747,7 @@
     "frequente": true,
     "obs": ""
   },
-  "63": {
+  "68": {
     "nome": "Ano",
     "coeficiente": 31557600,
     "sigla": "ano",
@@ -703,9 +758,9 @@
     "frequente": true,
     "obs": ""
   },
-  "64": {
+  "69": {
     "nome": "Kelvin",
-    "coeficiente": 0.00366099212886692,
+    "coeficiente": 1,
     "sigla": "K",
     "nick": "Kelvin (K)",
     "sistema": "SI",
@@ -714,9 +769,9 @@
     "frequente": true,
     "obs": ""
   },
-  "65": {
+  "70": {
     "nome": "Celsius",
-    "coeficiente": -6.66666666666667,
+    "coeficiente": 1,
     "sigla": "C",
     "nick": "Celsius (C)",
     "sistema": "SI",
@@ -725,9 +780,9 @@
     "frequente": true,
     "obs": ""
   },
-  "66": {
+  "71": {
     "nome": "Fahrenheit",
-    "coeficiente": 0.0315159155373464,
+    "coeficiente": 1,
     "sigla": "F",
     "nick": "Fahrenheit (F)",
     "sistema": "British",
@@ -736,18 +791,18 @@
     "frequente": true,
     "obs": ""
   },
-  "67": {
-    "nome": "Metro / Segundo",
+  "72": {
+    "nome": "Metro / Seg",
     "coeficiente": 1,
     "sigla": "m/s",
-    "nick": "Metro / Segundo (m/s)",
+    "nick": "Metro / Seg (m/s)",
     "sistema": "SI",
     "categoria": "Dinâmica",
     "tipo": "Velocidade",
     "frequente": true,
     "obs": ""
   },
-  "68": {
+  "73": {
     "nome": "Milímetro / Seg",
     "coeficiente": 0.001,
     "sigla": "mm/s",
@@ -758,7 +813,7 @@
     "frequente": false,
     "obs": ""
   },
-  "69": {
+  "74": {
     "nome": "Centímetro / Seg",
     "coeficiente": 0.01,
     "sigla": "cm/s",
@@ -766,10 +821,10 @@
     "sistema": "SI",
     "categoria": "Dinâmica",
     "tipo": "Velocidade",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "70": {
+  "75": {
     "nome": "Decímetro / Seg",
     "coeficiente": 0.1,
     "sigla": "dm/s",
@@ -780,7 +835,7 @@
     "frequente": false,
     "obs": ""
   },
-  "71": {
+  "76": {
     "nome": "Decâmetro / Seg",
     "coeficiente": 10,
     "sigla": "dam/s",
@@ -791,7 +846,7 @@
     "frequente": false,
     "obs": ""
   },
-  "72": {
+  "77": {
     "nome": "Hectômetro / Seg",
     "coeficiente": 100,
     "sigla": "hm/s",
@@ -802,7 +857,7 @@
     "frequente": false,
     "obs": ""
   },
-  "73": {
+  "78": {
     "nome": "Quilômetro / Seg",
     "coeficiente": 1000,
     "sigla": "km/s",
@@ -813,7 +868,7 @@
     "frequente": true,
     "obs": ""
   },
-  "74": {
+  "79": {
     "nome": "Pés (feet) / Seg",
     "coeficiente": 0.3048,
     "sigla": "ft/s",
@@ -824,7 +879,7 @@
     "frequente": true,
     "obs": ""
   },
-  "75": {
+  "80": {
     "nome": "Polegadas (inch) / Seg",
     "coeficiente": 0.0254,
     "sigla": "in/s",
@@ -835,7 +890,7 @@
     "frequente": true,
     "obs": ""
   },
-  "76": {
+  "81": {
     "nome": "Milha (mile) / Seg",
     "coeficiente": 1609.344,
     "sigla": "mi/s",
@@ -846,7 +901,7 @@
     "frequente": true,
     "obs": ""
   },
-  "77": {
+  "82": {
     "nome": "Jarda (yard) / Seg",
     "coeficiente": 0.9144,
     "sigla": "yd/s",
@@ -857,7 +912,128 @@
     "frequente": true,
     "obs": ""
   },
-  "78": {
+  "83": {
+    "nome": "Metro / Min",
+    "coeficiente": 0.0166666666666667,
+    "sigla": "m/min",
+    "nick": "Metro / Min (m/min)",
+    "sistema": "SI",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": true,
+    "obs": ""
+  },
+  "84": {
+    "nome": "Milímetro / Min",
+    "coeficiente": 1.66666666666667E-05,
+    "sigla": "mm/min",
+    "nick": "Milímetro / Min (mm/min)",
+    "sistema": "SI",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "85": {
+    "nome": "Centímetro / Min",
+    "coeficiente": 0.000166666666666667,
+    "sigla": "cm/min",
+    "nick": "Centímetro / Min (cm/min)",
+    "sistema": "SI",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "86": {
+    "nome": "Decímetro / Min",
+    "coeficiente": 0.00166666666666667,
+    "sigla": "dm/min",
+    "nick": "Decímetro / Min (dm/min)",
+    "sistema": "SI",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "87": {
+    "nome": "Decâmetro / Min",
+    "coeficiente": 0.166666666666667,
+    "sigla": "dam/min",
+    "nick": "Decâmetro / Min (dam/min)",
+    "sistema": "SI",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "88": {
+    "nome": "Hectômetro / Min",
+    "coeficiente": 1.66666666666667,
+    "sigla": "hm/min",
+    "nick": "Hectômetro / Min (hm/min)",
+    "sistema": "SI",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "89": {
+    "nome": "Quilômetro / Min",
+    "coeficiente": 16.6666666666667,
+    "sigla": "km/min",
+    "nick": "Quilômetro / Min (km/min)",
+    "sistema": "SI",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "90": {
+    "nome": "Pés (feet) / Min",
+    "coeficiente": 0.00508,
+    "sigla": "ft/min",
+    "nick": "Pés (feet) / Min (ft/min)",
+    "sistema": "British",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "91": {
+    "nome": "Polegadas (inch) / Min",
+    "coeficiente": 0.000423333333333333,
+    "sigla": "in/min",
+    "nick": "Polegadas (inch) / Min (in/min)",
+    "sistema": "British",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "92": {
+    "nome": "Milha (mile) / Min",
+    "coeficiente": 26.8224,
+    "sigla": "mi/min",
+    "nick": "Milha (mile) / Min (mi/min)",
+    "sistema": "British",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "93": {
+    "nome": "Jarda (yard) / Min",
+    "coeficiente": 0.01524,
+    "sigla": "yd/min",
+    "nick": "Jarda (yard) / Min (yd/min)",
+    "sistema": "British",
+    "categoria": "Dinâmica",
+    "tipo": "Velocidade",
+    "frequente": false,
+    "obs": ""
+  },
+  "94": {
     "nome": "Metro / Hora",
     "coeficiente": 0.000277777777777778,
     "sigla": "m/h",
@@ -868,7 +1044,7 @@
     "frequente": true,
     "obs": ""
   },
-  "79": {
+  "95": {
     "nome": "Milímetro / Hora",
     "coeficiente": 2.77777777777778E-07,
     "sigla": "mm/h",
@@ -879,7 +1055,7 @@
     "frequente": false,
     "obs": ""
   },
-  "80": {
+  "96": {
     "nome": "Centímetro / Hora",
     "coeficiente": 2.77777777777778E-06,
     "sigla": "cm/h",
@@ -890,7 +1066,7 @@
     "frequente": false,
     "obs": ""
   },
-  "81": {
+  "97": {
     "nome": "Decímetro / Hora",
     "coeficiente": 2.77777777777778E-05,
     "sigla": "dm/h",
@@ -901,7 +1077,7 @@
     "frequente": false,
     "obs": ""
   },
-  "82": {
+  "98": {
     "nome": "Decâmetro / Hora",
     "coeficiente": 0.00277777777777778,
     "sigla": "dam/h",
@@ -912,7 +1088,7 @@
     "frequente": false,
     "obs": ""
   },
-  "83": {
+  "99": {
     "nome": "Hectômetro / Hora",
     "coeficiente": 0.0277777777777778,
     "sigla": "hm/h",
@@ -923,7 +1099,7 @@
     "frequente": false,
     "obs": ""
   },
-  "84": {
+  "100": {
     "nome": "Quilômetro / Hora",
     "coeficiente": 0.277777777777778,
     "sigla": "km/h",
@@ -934,7 +1110,7 @@
     "frequente": true,
     "obs": ""
   },
-  "85": {
+  "101": {
     "nome": "Pés (feet) / Hora",
     "coeficiente": 8.46666666666667E-05,
     "sigla": "ft/h",
@@ -942,10 +1118,10 @@
     "sistema": "British",
     "categoria": "Dinâmica",
     "tipo": "Velocidade",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "86": {
+  "102": {
     "nome": "Polegadas (inch) / Hora",
     "coeficiente": 7.05555555555556E-06,
     "sigla": "in/h",
@@ -953,10 +1129,10 @@
     "sistema": "British",
     "categoria": "Dinâmica",
     "tipo": "Velocidade",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "87": {
+  "103": {
     "nome": "Milha (mile) / Hora",
     "coeficiente": 0.44704,
     "sigla": "mi/h",
@@ -967,7 +1143,7 @@
     "frequente": true,
     "obs": ""
   },
-  "88": {
+  "104": {
     "nome": "Jarda (yard) / Hora",
     "coeficiente": 0.000254,
     "sigla": "yd/h",
@@ -978,7 +1154,7 @@
     "frequente": true,
     "obs": ""
   },
-  "89": {
+  "105": {
     "nome": "Hertz",
     "coeficiente": 1,
     "sigla": "Hz",
@@ -989,7 +1165,7 @@
     "frequente": true,
     "obs": ""
   },
-  "90": {
+  "106": {
     "nome": "Quilohertz",
     "coeficiente": 0.001,
     "sigla": "kHz",
@@ -1000,7 +1176,7 @@
     "frequente": false,
     "obs": ""
   },
-  "91": {
+  "107": {
     "nome": "Megahertz",
     "coeficiente": 0.000001,
     "sigla": "MHz",
@@ -1011,7 +1187,7 @@
     "frequente": false,
     "obs": ""
   },
-  "92": {
+  "108": {
     "nome": "Gigahertz",
     "coeficiente": 0.000000001,
     "sigla": "GHz",
@@ -1022,7 +1198,7 @@
     "frequente": false,
     "obs": ""
   },
-  "93": {
+  "109": {
     "nome": "Rotações por minuto",
     "coeficiente": 0.0166666666666667,
     "sigla": "rpm",
@@ -1030,10 +1206,10 @@
     "sistema": "SI",
     "categoria": "Dinâmica",
     "tipo": "Frequênica",
-    "frequente": false,
+    "frequente": true,
     "obs": ""
   },
-  "94": {
+  "110": {
     "nome": "Metro Cúbico / Seg",
     "coeficiente": 1,
     "sigla": "m³/s",
@@ -1044,7 +1220,7 @@
     "frequente": true,
     "obs": ""
   },
-  "95": {
+  "111": {
     "nome": "Centímetro Cúbico / Seg",
     "coeficiente": 0.000001,
     "sigla": "cm³/s",
@@ -1055,7 +1231,7 @@
     "frequente": false,
     "obs": ""
   },
-  "96": {
+  "112": {
     "nome": "Decímetro Cúbico / Seg",
     "coeficiente": 0.001,
     "sigla": "dm³/s",
@@ -1066,7 +1242,7 @@
     "frequente": false,
     "obs": ""
   },
-  "97": {
+  "113": {
     "nome": "Listros / Seg",
     "coeficiente": 0.001,
     "sigla": "L/s",
@@ -1077,7 +1253,7 @@
     "frequente": true,
     "obs": ""
   },
-  "98": {
+  "114": {
     "nome": "Pés (feet) Cúbico / Seg",
     "coeficiente": 0.028316846592,
     "sigla": "Pés (feet)/s",
@@ -1088,7 +1264,7 @@
     "frequente": true,
     "obs": ""
   },
-  "99": {
+  "115": {
     "nome": "Polegadas (inch) Cúbicos / Seg",
     "coeficiente": 0.000016387064,
     "sigla": "Polegadas (inch)/s",
@@ -1099,7 +1275,7 @@
     "frequente": true,
     "obs": ""
   },
-  "100": {
+  "116": {
     "nome": "Jarda (yard) Cubico / Seg",
     "coeficiente": 0.764554857984,
     "sigla": "Jarda (yard)/s",
@@ -1110,7 +1286,7 @@
     "frequente": true,
     "obs": ""
   },
-  "101": {
+  "117": {
     "nome": "Metro Cúbico / Min",
     "coeficiente": 0.0166666666666667,
     "sigla": "m³/min",
@@ -1118,10 +1294,10 @@
     "sistema": "SI",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": false,
+    "frequente": true,
     "obs": ""
   },
-  "102": {
+  "118": {
     "nome": "Centímetro Cúbico / Min",
     "coeficiente": 1.66666666666667E-08,
     "sigla": "cm³/min",
@@ -1132,7 +1308,7 @@
     "frequente": false,
     "obs": ""
   },
-  "103": {
+  "119": {
     "nome": "Decímetro Cúbico / Min",
     "coeficiente": 1.66666666666667E-05,
     "sigla": "dm³/min",
@@ -1143,7 +1319,7 @@
     "frequente": false,
     "obs": ""
   },
-  "104": {
+  "120": {
     "nome": "Listros / Min",
     "coeficiente": 1.66666666666667E-05,
     "sigla": "L/min",
@@ -1151,10 +1327,10 @@
     "sistema": "SI",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": false,
+    "frequente": true,
     "obs": ""
   },
-  "105": {
+  "121": {
     "nome": "Pés (feet) Cúbico / Min",
     "coeficiente": 0.0004719474432,
     "sigla": "Pés (feet)/min",
@@ -1165,7 +1341,7 @@
     "frequente": false,
     "obs": ""
   },
-  "106": {
+  "122": {
     "nome": "Polegadas (inch) Cúbicos / Min",
     "coeficiente": 2.73117733333333E-07,
     "sigla": "Polegadas (inch)/min",
@@ -1176,7 +1352,7 @@
     "frequente": false,
     "obs": ""
   },
-  "107": {
+  "123": {
     "nome": "Jarda (yard) Cubico / Seg",
     "coeficiente": 0.0127425809664,
     "sigla": "Jarda (yard)/min",
@@ -1187,7 +1363,7 @@
     "frequente": false,
     "obs": ""
   },
-  "108": {
+  "124": {
     "nome": "Metro Cúbico / Hora",
     "coeficiente": 0.000277777777777778,
     "sigla": "m³/h",
@@ -1198,7 +1374,7 @@
     "frequente": true,
     "obs": ""
   },
-  "109": {
+  "125": {
     "nome": "Centímetro Cúbico / Hora",
     "coeficiente": 2.77777777777778E-10,
     "sigla": "cm³/h",
@@ -1209,7 +1385,7 @@
     "frequente": false,
     "obs": ""
   },
-  "110": {
+  "126": {
     "nome": "Decímetro Cúbico / Hora",
     "coeficiente": 2.77777777777778E-07,
     "sigla": "dm³/h",
@@ -1220,7 +1396,7 @@
     "frequente": false,
     "obs": ""
   },
-  "111": {
+  "127": {
     "nome": "Listros / Hora",
     "coeficiente": 2.77777777777778E-07,
     "sigla": "L/h",
@@ -1231,7 +1407,7 @@
     "frequente": true,
     "obs": ""
   },
-  "112": {
+  "128": {
     "nome": "Pés (feet) Cúbico / Hora",
     "coeficiente": 0.00000786579072,
     "sigla": "ft³/h",
@@ -1239,10 +1415,10 @@
     "sistema": "British",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "113": {
+  "129": {
     "nome": "Polegadas (inch) Cúbico / Hora",
     "coeficiente": 4.55196222222222E-09,
     "sigla": "in³/h",
@@ -1250,10 +1426,10 @@
     "sistema": "British",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "114": {
+  "130": {
     "nome": "Jarda (yard) Cúbico / Hora",
     "coeficiente": 0.00021237634944,
     "sigla": "yd³/h",
@@ -1264,7 +1440,7 @@
     "frequente": true,
     "obs": ""
   },
-  "115": {
+  "131": {
     "nome": "Metro Cúbico / Dia",
     "coeficiente": 1.15740740740741E-05,
     "sigla": "m³/dia",
@@ -1275,7 +1451,7 @@
     "frequente": true,
     "obs": ""
   },
-  "116": {
+  "132": {
     "nome": "Centímetro Cúbico / Dia",
     "coeficiente": 1.15740740740741E-11,
     "sigla": "cm³/dia",
@@ -1286,7 +1462,7 @@
     "frequente": false,
     "obs": ""
   },
-  "117": {
+  "133": {
     "nome": "Decímetro Cúbico / Dia",
     "coeficiente": 1.15740740740741E-08,
     "sigla": "dm³/dia",
@@ -1297,7 +1473,7 @@
     "frequente": false,
     "obs": ""
   },
-  "118": {
+  "134": {
     "nome": "Listros / Dia",
     "coeficiente": 1.15740740740741E-08,
     "sigla": "L/dia",
@@ -1308,7 +1484,7 @@
     "frequente": true,
     "obs": ""
   },
-  "119": {
+  "135": {
     "nome": "Pés (feet) Cúbico / Dia",
     "coeficiente": 0.00000032774128,
     "sigla": "ft³/dia",
@@ -1316,10 +1492,10 @@
     "sistema": "British",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "120": {
+  "136": {
     "nome": "Polegadas (inch) Cúbico / Dia",
     "coeficiente": 1.89665092592593E-10,
     "sigla": "in³/dia",
@@ -1327,10 +1503,10 @@
     "sistema": "British",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "121": {
+  "137": {
     "nome": "Jarda (yard) Cúbico / Dia",
     "coeficiente": 0.00000884901456,
     "sigla": "yd³/dia",
@@ -1338,10 +1514,10 @@
     "sistema": "British",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "122": {
+  "138": {
     "nome": "Metro Cúbico / Mês",
     "coeficiente": 3.80257053768347E-07,
     "sigla": "m³/mês",
@@ -1352,7 +1528,7 @@
     "frequente": true,
     "obs": ""
   },
-  "123": {
+  "139": {
     "nome": "Centímetro Cúbico / Mês",
     "coeficiente": 3.80257053768347E-13,
     "sigla": "cm³/mês",
@@ -1363,7 +1539,7 @@
     "frequente": false,
     "obs": ""
   },
-  "124": {
+  "140": {
     "nome": "Decímetro Cúbico / Mês",
     "coeficiente": 3.80257053768348E-10,
     "sigla": "dm³/mês",
@@ -1374,7 +1550,7 @@
     "frequente": false,
     "obs": ""
   },
-  "125": {
+  "141": {
     "nome": "Listros / Mês",
     "coeficiente": 3.80257053768348E-10,
     "sigla": "L/mês",
@@ -1385,7 +1561,7 @@
     "frequente": true,
     "obs": ""
   },
-  "126": {
+  "142": {
     "nome": "Pés (feet) Cúbico / Mês",
     "coeficiente": 1.07676806570842E-08,
     "sigla": "ft³/mês",
@@ -1393,10 +1569,10 @@
     "sistema": "British",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "127": {
+  "143": {
     "nome": "Polegadas (inch) Cúbico / Mês",
     "coeficiente": 6.23129667655335E-12,
     "sigla": "in³/mês",
@@ -1404,10 +1580,10 @@
     "sistema": "British",
     "categoria": "Vazão",
     "tipo": "Vazão",
-    "frequente": true,
+    "frequente": false,
     "obs": ""
   },
-  "128": {
+  "144": {
     "nome": "Jarda (yard) Cúbico / Mês",
     "coeficiente": 2.90727377741273E-07,
     "sigla": "yd³/mês",
@@ -1418,7 +1594,7 @@
     "frequente": true,
     "obs": ""
   },
-  "129": {
+  "145": {
     "nome": "Newton",
     "coeficiente": 1,
     "sigla": "N",
@@ -1429,7 +1605,7 @@
     "frequente": true,
     "obs": ""
   },
-  "130": {
+  "146": {
     "nome": "Quilonewton",
     "coeficiente": 1000,
     "sigla": "kN",
@@ -1440,7 +1616,7 @@
     "frequente": true,
     "obs": ""
   },
-  "131": {
+  "147": {
     "nome": "Meganewton",
     "coeficiente": 1000000,
     "sigla": "mN",
@@ -1451,7 +1627,7 @@
     "frequente": false,
     "obs": ""
   },
-  "132": {
+  "148": {
     "nome": "Decanewton",
     "coeficiente": 10000000000,
     "sigla": "daN",
@@ -1462,7 +1638,7 @@
     "frequente": false,
     "obs": ""
   },
-  "133": {
+  "149": {
     "nome": "Giganewton",
     "coeficiente": 1000000000,
     "sigla": "gN",
@@ -1473,7 +1649,7 @@
     "frequente": false,
     "obs": ""
   },
-  "134": {
+  "150": {
     "nome": "Quilograma-força",
     "coeficiente": 9.80665,
     "sigla": "kgf",
@@ -1484,7 +1660,7 @@
     "frequente": true,
     "obs": ""
   },
-  "135": {
+  "151": {
     "nome": "Tonelada-força",
     "coeficiente": 0.00980665,
     "sigla": "tf",
@@ -1495,7 +1671,7 @@
     "frequente": true,
     "obs": ""
   },
-  "136": {
+  "152": {
     "nome": "Libra-força",
     "coeficiente": 4.4482216152605,
     "sigla": "lbf",
@@ -1506,7 +1682,7 @@
     "frequente": false,
     "obs": ""
   },
-  "137": {
+  "153": {
     "nome": "Pascal",
     "coeficiente": 1,
     "sigla": "Pa",
@@ -1517,7 +1693,7 @@
     "frequente": true,
     "obs": ""
   },
-  "138": {
+  "154": {
     "nome": "Quilopascal",
     "coeficiente": 1000,
     "sigla": "Kpa",
@@ -1528,7 +1704,7 @@
     "frequente": true,
     "obs": ""
   },
-  "139": {
+  "155": {
     "nome": "Megapascal",
     "coeficiente": 1000000,
     "sigla": "Mpa",
@@ -1539,7 +1715,7 @@
     "frequente": true,
     "obs": ""
   },
-  "140": {
+  "156": {
     "nome": "kgf/m²",
     "coeficiente": 9.80665,
     "sigla": "kgf/m²",
@@ -1550,7 +1726,7 @@
     "frequente": true,
     "obs": ""
   },
-  "141": {
+  "157": {
     "nome": "kgf/cm²",
     "coeficiente": 98066.5,
     "sigla": "kgf/cm²",
@@ -1561,7 +1737,7 @@
     "frequente": true,
     "obs": ""
   },
-  "142": {
+  "158": {
     "nome": "Metro Coluna D'água",
     "coeficiente": 9806.65,
     "sigla": "mca",
@@ -1572,7 +1748,7 @@
     "frequente": true,
     "obs": ""
   },
-  "143": {
+  "159": {
     "nome": "Milímetro de mercúrio",
     "coeficiente": 133.322387415,
     "sigla": "mmHg",
@@ -1580,10 +1756,10 @@
     "sistema": "-",
     "categoria": "Mecânica",
     "tipo": "Pressão",
-    "frequente": false,
+    "frequente": true,
     "obs": ""
   },
-  "144": {
+  "160": {
     "nome": "Atmosfera",
     "coeficiente": 101325,
     "sigla": "atm",
@@ -1591,10 +1767,10 @@
     "sistema": "-",
     "categoria": "Mecânica",
     "tipo": "Pressão",
-    "frequente": false,
+    "frequente": true,
     "obs": ""
   },
-  "145": {
+  "161": {
     "nome": "Libra por polegada quadrada",
     "coeficiente": 6894.75729316836,
     "sigla": "psi",
@@ -1605,7 +1781,7 @@
     "frequente": false,
     "obs": ""
   },
-  "146": {
+  "162": {
     "nome": "Libra por pé quadrado",
     "coeficiente": 47.8802589803359,
     "sigla": "psf",
@@ -1616,7 +1792,7 @@
     "frequente": false,
     "obs": ""
   },
-  "147": {
+  "163": {
     "nome": "Bar",
     "coeficiente": 100000,
     "sigla": "bar",
@@ -1624,7 +1800,304 @@
     "sistema": "-",
     "categoria": "Mecânica",
     "tipo": "Pressão",
+    "frequente": true,
+    "obs": ""
+  },
+  "164": {
+    "nome": "Watt",
+    "coeficiente": 1,
+    "sigla": "W",
+    "nick": "Watt (W)",
+    "sistema": "SI",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "165": {
+    "nome": "Quilowatt",
+    "coeficiente": 1000,
+    "sigla": "kW",
+    "nick": "Quilowatt (kW)",
+    "sistema": "SI",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "166": {
+    "nome": "Megawatt",
+    "coeficiente": 1000000,
+    "sigla": "MW",
+    "nick": "Megawatt (MW)",
+    "sistema": "SI",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
     "frequente": false,
+    "obs": ""
+  },
+  "167": {
+    "nome": "Horse-power",
+    "coeficiente": 745.699871357078,
+    "sigla": "hp",
+    "nick": "Horse-power (hp)",
+    "sistema": "-",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "168": {
+    "nome": "Cavalo-vapor",
+    "coeficiente": 735.498748541524,
+    "sigla": "cv",
+    "nick": "Cavalo-vapor (cv)",
+    "sistema": "-",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "169": {
+    "nome": "Pés-libra por segundo",
+    "coeficiente": 1.35582,
+    "sigla": "plb/s",
+    "nick": "Pés-libra por segundo (plb/s)",
+    "sistema": "British",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
+    "frequente": false,
+    "obs": ""
+  },
+  "170": {
+    "nome": "Pés-libra por minuto",
+    "coeficiente": 0.022597,
+    "sigla": "plb/min",
+    "nick": "Pés-libra por minuto (plb/min)",
+    "sistema": "British",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
+    "frequente": false,
+    "obs": ""
+  },
+  "171": {
+    "nome": "BTU/s",
+    "coeficiente": 100000,
+    "sigla": "BTU/s",
+    "nick": "BTU/s (BTU/s)",
+    "sistema": "British",
+    "categoria": "Mecânica",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "172": {
+    "nome": "Newton metro",
+    "coeficiente": 1,
+    "sigla": "Nm",
+    "nick": "Newton metro (Nm)",
+    "sistema": "SI",
+    "categoria": "Mecânica",
+    "tipo": "Torque",
+    "frequente": true,
+    "obs": ""
+  },
+  "173": {
+    "nome": "Quilonewton metro",
+    "coeficiente": 1000,
+    "sigla": "kNm",
+    "nick": "Quilonewton metro (kNm)",
+    "sistema": "SI",
+    "categoria": "Mecânica",
+    "tipo": "Torque",
+    "frequente": true,
+    "obs": ""
+  },
+  "174": {
+    "nome": "Quilograma força metro",
+    "coeficiente": 9.80665,
+    "sigla": "kgfm",
+    "nick": "Quilograma força metro (kgfm)",
+    "sistema": "-",
+    "categoria": "Mecânica",
+    "tipo": "Torque",
+    "frequente": true,
+    "obs": ""
+  },
+  "175": {
+    "nome": "Libra força pé",
+    "coeficiente": 1.355818,
+    "sigla": "lbffeet",
+    "nick": "Libra força pé (lbffeet)",
+    "sistema": "-",
+    "categoria": "Mecânica",
+    "tipo": "Torque",
+    "frequente": false,
+    "obs": ""
+  },
+  "176": {
+    "nome": "Libra força polegada",
+    "coeficiente": 0.112984833333333,
+    "sigla": "lbfin",
+    "nick": "Libra força polegada (lbfin)",
+    "sistema": "-",
+    "categoria": "Mecânica",
+    "tipo": "Torque",
+    "frequente": false,
+    "obs": ""
+  },
+  "177": {
+    "nome": "Joule",
+    "coeficiente": 1,
+    "sigla": "J",
+    "nick": "Joule (J)",
+    "sistema": "SI",
+    "categoria": "Energia",
+    "tipo": "Energia",
+    "frequente": true,
+    "obs": ""
+  },
+  "178": {
+    "nome": "Quilojoule",
+    "coeficiente": 1000,
+    "sigla": "kJ",
+    "nick": "Quilojoule (kJ)",
+    "sistema": "SI",
+    "categoria": "Energia",
+    "tipo": "Energia",
+    "frequente": false,
+    "obs": ""
+  },
+  "179": {
+    "nome": "Caloria",
+    "coeficiente": 4.1868,
+    "sigla": "cal",
+    "nick": "Caloria (cal)",
+    "sistema": "-",
+    "categoria": "Energia",
+    "tipo": "Energia",
+    "frequente": true,
+    "obs": ""
+  },
+  "180": {
+    "nome": "Quilocaloria",
+    "coeficiente": 4186.8,
+    "sigla": "kcal",
+    "nick": "Quilocaloria (kcal)",
+    "sistema": "-",
+    "categoria": "Energia",
+    "tipo": "Energia",
+    "frequente": true,
+    "obs": ""
+  },
+  "181": {
+    "nome": "Pé-libra",
+    "coeficiente": 1.355781,
+    "sigla": "plb",
+    "nick": "Pé-libra (plb)",
+    "sistema": "British",
+    "categoria": "Energia",
+    "tipo": "Energia",
+    "frequente": false,
+    "obs": ""
+  },
+  "182": {
+    "nome": "BTU",
+    "coeficiente": 1055.055875,
+    "sigla": "BTU",
+    "nick": "BTU (BTU)",
+    "sistema": "British",
+    "categoria": "Energia",
+    "tipo": "Energia",
+    "frequente": true,
+    "obs": ""
+  },
+  "183": {
+    "nome": "Watt",
+    "coeficiente": 1,
+    "sigla": "W",
+    "nick": "Watt (W)",
+    "sistema": "SI",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "184": {
+    "nome": "Quilowatt",
+    "coeficiente": 1000,
+    "sigla": "kW",
+    "nick": "Quilowatt (kW)",
+    "sistema": "SI",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "185": {
+    "nome": "Megawatt",
+    "coeficiente": 1000000,
+    "sigla": "MW",
+    "nick": "Megawatt (MW)",
+    "sistema": "SI",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": false,
+    "obs": ""
+  },
+  "186": {
+    "nome": "Horse-power",
+    "coeficiente": 745.699871357078,
+    "sigla": "hp",
+    "nick": "Horse-power (hp)",
+    "sistema": "-",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "187": {
+    "nome": "Cavalo-vapor",
+    "coeficiente": 735.498748541524,
+    "sigla": "cv",
+    "nick": "Cavalo-vapor (cv)",
+    "sistema": "-",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": true,
+    "obs": ""
+  },
+  "188": {
+    "nome": "Pés-libra por segundo",
+    "coeficiente": 1.35582,
+    "sigla": "plb/s",
+    "nick": "Pés-libra por segundo (plb/s)",
+    "sistema": "British",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": false,
+    "obs": ""
+  },
+  "189": {
+    "nome": "Pés-libra por minuto",
+    "coeficiente": 0.022597,
+    "sigla": "plb/min",
+    "nick": "Pés-libra por minuto (plb/min)",
+    "sistema": "British",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": false,
+    "obs": ""
+  },
+  "190": {
+    "nome": "BTU/s",
+    "coeficiente": 1055.055875,
+    "sigla": "BTU/s",
+    "nick": "BTU/s (BTU/s)",
+    "sistema": "British",
+    "categoria": "Energia",
+    "tipo": "Potência",
+    "frequente": true,
     "obs": ""
   }
 }

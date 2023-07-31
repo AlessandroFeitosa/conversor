@@ -28,10 +28,18 @@
                     <select name="selecao-unidade" id="selecao-unidade" class="selecao-select"
                         onchange="calcula()"></select>
                 </div>
-                <div >
-                    <input type="checkbox" onclick="unidadesComuns()" id="chk-un-comum">
-                    <label for="chk-un-comum" class="label-menor">unidades mais comuns</label>
+                <div class="comandos">
+                    <div class="unidades-comuns">
+                        <input type="checkbox" onclick="unidadesComuns()" id="chk-un-comum">
+                        <label for="chk-un-comum" class="label-menor">unidades mais comuns</label>
+                    </div>
+                    <div class="si">
+                        <input type="checkbox" onclick="sistemaSi()" id="chk-si">
+                        <label for="chk-si" class="label-menor">apenas SI</label>
+                    </div>
+                    <span class="btn-troca" onclick="trocaUnidades()">⇅</span>
                 </div>
+
             </div>
             <p class="igual">=</p>
             <div class="saida">
