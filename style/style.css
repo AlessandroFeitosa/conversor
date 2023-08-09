@@ -9,14 +9,13 @@
     --border-focus-select: #2e86de;
     --border-form: #ccc;
     --main-gap: 3rem;
-    --font-main: 'Questrial', sans-serif;
-    --font-secondary: 'Chivo Mono', monospace;
+    --font-main: 'Robot+Mono', monospace;
 }
 
 /* -------------- VARIÁVEIS --------------- */
 
 /* -------------- FONTS --------------- */
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@900&family=MuseoModerno:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap&?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 /* -------------- FONTS --------------- */
 
 /* -------------- RESET --------------- */
@@ -25,7 +24,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* -------------- RESET --------------- */
 
 /* -------------- GERAIS --------------- */
@@ -43,66 +41,12 @@ h1 {
     text-align: center;
     margin: 20px 0;
     text-shadow: 2px 2px 2px var(--border-form);
-    font-size: 4rem;
+    font-size: 3.8rem;
 }
 
 a {
     color: var(--border-focus-select);
     text-decoration: none;
-}
-
-/* -------------- GERAIS --------------- */
-
-.conteudo {
-    width: fit-content;
-    height: 100vh;
-    margin: 0 auto;
-    text-align: left;
-    padding: 1rem;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.container {
-    text-align: center;
-}
-
-.entrada {
-    width: 50rem;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: var(--background-entrada);
-    border-radius: 0.8rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: .5rem;
-    border: 1px solid var(--border-form);
-    text-align: left;
-}
-
-.saida {
-    width: 50rem;
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: var(--background-entrada);
-    border-radius: 0.8rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 1px solid var(--border-form);
-}
-
-
-.selecao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.input-number {
-    width: 12rem;
-    font-size: 2rem;
-    font-weight: bold;
-    padding: .7rem;
 }
 
 label {
@@ -111,6 +55,7 @@ label {
 }
 
 select {
+    font-family: var(--font-main);
     width: 30rem;
     padding: 10px;
     border: 1px solid var(--border-select);
@@ -135,22 +80,110 @@ select option {
     background-color: var(--background-select);
     color: var(--font-color-select);
 }
+/* -------------- GERAIS --------------- */
 
+.logo{
+    width: 3%;
+}
+
+/* Seção conteúdo */
+.conteudo {
+    width: fit-content;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Container de entrada e saída */
+.container {
+    text-align: center;
+}
+
+/* --------- Container de entrada ------------ */
+.entrada {
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--background-entrada);
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: .5rem;
+    border: 1px solid var(--border-form);
+    text-align: left;
+}
+
+/* Container de label e select */
+.selecao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Caixa de texto. Entrada de valor da unidade */
+.input-number {
+    width: 12rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: .4rem;
+    height: 4.1rem;
+}
+
+/* Caixa de texto. Para caixas que são readonly (Caixa de saída) */
 .input-number[readonly] {
     background-color: var(--background);
     border: 1px solid var(--border-select);
     border-radius: 5px;
 }
 
+/* Labels dos comandos */
+.label-menor {
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+/* Container dos comandos */
+.comandos {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Botão de troca de unidades */
+.btn-troca {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: larger;
+}
+/* --------- Container de entrada ------------ */
+
+/* Sinal de = (Igual) */
 .igual {
     font-size: 5rem;
 }
 
+
+/* --------- Container de saída ------------ */
+.saida {
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--background-entrada);
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-form);
+}
+
+/* Container de range e text do arredondamento */
 .arredondamento {
     display: flex;
     justify-content: center;
 }
 
+/* "p"  das casas decimais*/
 #text-decimais {
     font-size: 1.5rem;
     display: inline;
@@ -158,22 +191,11 @@ select option {
     justify-content: center;
     width: 15rem;
 }
+/* --------- Container de saída ------------ */
 
+/* Span do footer */
 .contatos {
     font-size: 1.2rem;
     color: var(--border-hover-select);
 }
 
-.label-menor {
-    font-size: 1.4rem;
-    font-weight: lighter;
-}
-
-.comandos {
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn-troca {
-    cursor: pointer;
-}

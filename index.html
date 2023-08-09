@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Unidades</title>
+    <link rel="shortcut icon" href="imgs/rotate-solid-2.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <section class="conteudo">
-        <h1>Conversor de Unidades</h1>
+        <h1><img src="imgs/rotate-solid.svg" alt="Logomarca" class="logo"> Conversor de Unidades</h1>
         <div class="container">
             <div class="entrada">
                 <div class="selecao">
@@ -31,13 +32,13 @@
                 <div class="comandos">
                     <div class="unidades-comuns">
                         <input type="checkbox" onclick="unidadesComuns()" id="chk-un-comum">
-                        <label for="chk-un-comum" class="label-menor">unidades mais comuns</label>
+                        <label for="chk-un-comum" class="label-menor">Unidades mais comuns</label>
                     </div>
                     <div class="si">
                         <input type="checkbox" onclick="sistemaSi()" id="chk-si">
-                        <label for="chk-si" class="label-menor">apenas SI</label>
+                        <label for="chk-si" class="label-menor">Apenas SI</label>
                     </div>
-                    <span class="btn-troca" onclick="trocaUnidades()">⇅</span>
+                    <abbr title="Troca as unidades" class="btn-troca" onclick="trocaUnidades()">⇅</abbr>
                 </div>
 
             </div>
@@ -55,11 +56,12 @@
                 </div>
             </div>
         </div>
-        <span class="contatos">Alessandro Feitosa - <a href="https://github.com/AlessandroFeitosa"
-                target="_blank">Github</a></span>
+        <footer>
+            <span class="contatos">Desenvolvido por Alessandro Feitosa - <a href="https://github.com/AlessandroFeitosa"
+                    target="_blank">Github</a> - Version: 0.0.0.0</span>
+        </footer>
     </section>
 </body>
-<script src="scripts.js"></script>
-
+<script src="scripts/scripts.js"></script>
 
 </html>
