@@ -26,6 +26,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* -------------- RESET --------------- */
 
 /* -------------- GERAIS --------------- */
@@ -82,9 +83,14 @@ select option {
     background-color: var(--background-select);
     color: var(--font-color-select);
 }
+
+hr {
+    border-style: groove;
+}
+
 /* -------------- GERAIS --------------- */
 
-.logo{
+.logo {
     width: 3%;
 }
 
@@ -160,6 +166,7 @@ select option {
     text-decoration: none;
     font-size: larger;
 }
+
 /* --------- Container de entrada ------------ */
 
 /* Sinal de = (Igual) */
@@ -193,6 +200,7 @@ select option {
     justify-content: center;
     width: 15rem;
 }
+
 /* --------- Container de saída ------------ */
 
 /* Span do footer */
@@ -200,4 +208,3 @@ select option {
     font-size: 1.2rem;
     color: var(--border-hover-select);
 }
-
