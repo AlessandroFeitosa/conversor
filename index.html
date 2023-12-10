@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Unidades</title>
+
+    <!-- ##### Preencher o meta description ##### -->
+    <meta name="description" content="Conversor de unidades. Converte unidades de diversos tipos.">
+
+    <!-- ##### Preencher o meta keywords ##### -->
+    <meta name="keywords" content="Conversor, Converter, Unidades, Medidas, Units">
+
+    <!-- ##### Preencher o meta author ##### -->
+    <meta name="author" content="Alessandro Feitosa">
+
     <link rel="shortcut icon" href="imgs/rotate-solid-2.svg" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -57,10 +67,41 @@
                     <p id="text-decimais">casas decimais</p>
                 </div>
             </div>
+            <div class="moedas">
+                <h2>Conversão de Moedas</h2>
+                <div class="container-moedas">
+                    <div class="container-textos-moedas">
+                        <div class="cotacoes-line">
+                            <span>Real: </span> <span id="cotacoes-real">Obtendo...</span>
+                        </div>
+                        <div class="cotacoes-line">
+                            <span>Dólar: </span> <span id="cotacoes-dolar">Obtendo...</span>
+                        </div>
+                        <div class="cotacoes-line">
+                            <span>Euro: </span> <span id="cotacoes-euro">Obtendo...</span>
+                        </div>
+                        <div class="cotacoes-line">
+                            <span>Bitcoin: </span> <span id="cotacoes-bitcoin">Obtendo...</span>
+                        </div>
+                    </div>
+                    <div class="container-comandos-moedas">
+                        <!-- <label for="selecao-moeda">Categoria:</label> -->
+                        <select name="selecao-moeda" id="selecao-moeda" class="selecao-moeda"
+                            onchange="printCotacoes()">
+                            <!-- <option value="" disabled selected>Moeda</option> -->
+                            <option value="Real">Real</option>
+                            <option value="Dolar">Dólar</option>
+                            <option value="Euro">Euro</option>
+                            <option value="Bitcoin">Bitcoin</option>
+                        </select>
+                        <button onclick="getCotacoes()">Atualizar cotação</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer>
             <span class="contatos">Desenvolvido por Alessandro Feitosa - <a href="https://github.com/AlessandroFeitosa"
-                    target="_blank">Github</a> - Version: 0.0.0.0</span>
+                    target="_blank">Github</a> - Version: 0.1.0.1</span>
         </footer>
     </section>
 </body>
