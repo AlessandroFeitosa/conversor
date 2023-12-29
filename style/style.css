@@ -109,6 +109,10 @@ button:hover {
     background-color: var(--border-select);
 }
 
+button:active {
+    background-color: var(--background);
+}
+
 /* -------------- GERAIS --------------- */
 
 .logo {
@@ -159,6 +163,12 @@ button:hover {
     font-weight: bold;
     padding: .4rem;
     height: 4.1rem;
+    border-radius: .5rem;
+}
+
+.input-number:focus {
+    outline: 2px solid var(--border-focus-select);
+    border: 1px solid var(--border-focus-select);
 }
 
 /* Caixa de texto. Para caixas que são readonly (Caixa de saída) */
@@ -174,6 +184,11 @@ button:hover {
     font-weight: lighter;
 }
 
+.label-menor:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
 /* Container dos comandos */
 .comandos {
     display: flex;
@@ -185,6 +200,13 @@ button:hover {
     cursor: pointer;
     text-decoration: none;
     font-size: larger;
+    /* transition: 200ms ease-in-out; */
+}
+
+.btn-troca:hover {
+    cursor: pointer;
+    /* border: 1px solid black; */
+    scale: 1.1;
 }
 
 /* --------- Container de entrada ------------ */
