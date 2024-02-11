@@ -1893,7 +1893,7 @@
     },
     "172": {
         "nome": "BTU/s",
-        "coeficiente": 100000,
+        "coeficiente": 1055.055875,
         "sigla": "BTU/s",
         "nick": "BTU/s (BTU/s)",
         "sistema": "British",
