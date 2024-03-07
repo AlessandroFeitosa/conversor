@@ -21,88 +21,107 @@
 
 <body>
     <section class="conteudo">
-        <h1><img src="imgs/rotate-solid.svg" alt="Logomarca" class="logo"> Conversor de Unidades</h1>
-        <div class="container">
-            <div class="entrada">
-                <div class="selecao">
-                    <label for="selecao-categoria">Categoria:</label>
-                    <select name="selecao-categoria" id="selecao-categoria" class="selecao-select"
-                        onchange="extraiTipo('selecao-tipo')"></select>
-                </div>
-                <hr>
-                <div class="selecao">
-                    <label for="selecao-tipo">Tipo:</label>
-                    <select name="selecao-tipo" id="selecao-tipo" class="selecao-select"
-                        onchange="extraiUnidade('selecao-unidade')"></select>
-                </div>
-                <hr>
-                <div class="selecao">
-                    <input type="number" class="input-number" id="text-unidade">
-                    <select name="selecao-unidade" id="selecao-unidade" class="selecao-select"
-                        onchange="calcula()"></select>
-                </div>
-                <hr>
-                <br>
-                <div class="comandos">
-                    <div class="unidades-comuns">
-                        <input type="checkbox" onclick="unidadesComuns()" id="chk-un-comum">
-                        <label for="chk-un-comum" class="label-menor">Unidades mais comuns</label>
+
+        <!-- <h1><img src="imgs/rotate-solid.svg" alt="Logomarca" class="logo"> Conversor de Unidades</h1> -->
+        <h1>Conversor de Unidades</h1>
+        <div class="display">
+            <div class="lateral-e">
+                <div class="container">
+                    <div class="entrada">
+                        <div class="selecao">
+                            <label for="selecao-categoria">Categoria:</label>
+                            <select name="selecao-categoria" id="selecao-categoria" class="selecao-select"
+                                onchange="extraiTipo('selecao-tipo')"></select>
+                        </div>
+                        <hr>
+                        <div class="selecao">
+                            <label for="selecao-tipo">Tipo:</label>
+                            <select name="selecao-tipo" id="selecao-tipo" class="selecao-select"
+                                onchange="extraiUnidade('selecao-unidade')"></select>
+                        </div>
+                        <hr>
+                        <div class="selecao">
+                            <input type="number" class="input-number" id="text-unidade">
+                            <select name="selecao-unidade" id="selecao-unidade" class="selecao-select"
+                                onchange="calcula()"></select>
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="comandos">
+                            <div class="unidades-comuns">
+                                <input type="checkbox" onclick="unidadesComuns()" id="chk-un-comum">
+                                <label for="chk-un-comum" class="label-menor">Unidades mais comuns</label>
+                            </div>
+                            <div class="si">
+                                <input type="checkbox" onclick="sistemaSi()" id="chk-si">
+                                <label for="chk-si" class="label-menor">Apenas SI</label>
+                            </div>
+                            <!-- <div class="ativa-lateral">
+                                <input type="checkbox" onclick="abreLateral()" id="chk-lateral">
+                                <label for="chk-lateral" class="label-menor">Resultados</label>
+                            </div> -->
+                            <abbr title="Troca as unidades" class="btn-troca" onclick="trocaUnidades()">⇅</abbr>
+                            <abbr title="Lista de unidades convertidas" class="btn-troca"
+                                onclick="abreLateral()()">⟺</abbr>
+                        </div>
                     </div>
-                    <div class="si">
-                        <input type="checkbox" onclick="sistemaSi()" id="chk-si">
-                        <label for="chk-si" class="label-menor">Apenas SI</label>
+                    <p class="igual">=</p>
+                    <div class="saida">
+                        <div class="selecao">
+                            <input type="number" class="input-number" id="text-unidade-2" readonly>
+                            <select name="selecao-unidade-2" id="selecao-unidade-2" class="selecao-select"
+                                onchange="calcula()"></select>
+                        </div>
+                        <div class="arredondamento">
+                            <input type="range" min="0" max="8" value="3" class="slider" id="range-decimais"
+                                onchange="decimais()">
+                            <p id="text-decimais">casas decimais</p>
+                        </div>
                     </div>
-                    <abbr title="Troca as unidades" class="btn-troca" onclick="trocaUnidades()">⇅</abbr>
+                    <div class="moedas">
+                        <h2>Conversão de Moedas</h2>
+                        <div class="container-moedas">
+                            <div class="container-textos-moedas">
+                                <div class="cotacoes-line">
+                                    <span>Real: </span> <span id="cotacoes-real">Obtendo...</span>
+                                </div>
+                                <div class="cotacoes-line">
+                                    <span>Dólar: </span> <span id="cotacoes-dolar">Obtendo...</span>
+                                </div>
+                                <div class="cotacoes-line">
+                                    <span>Euro: </span> <span id="cotacoes-euro">Obtendo...</span>
+                                </div>
+                                <div class="cotacoes-line">
+                                    <span>Bitcoin: </span> <span id="cotacoes-bitcoin">Obtendo...</span>
+                                </div>
+                            </div>
+                            <div class="container-comandos-moedas">
+                                <!-- <label for="selecao-moeda">Categoria:</label> -->
+                                <select name="selecao-moeda" id="selecao-moeda" class="selecao-moeda"
+                                    onchange="printCotacoes()">
+                                    <!-- <option value="" disabled selected>Moeda</option> -->
+                                    <option value="Real">Real</option>
+                                    <option value="Dolar">Dólar</option>
+                                    <option value="Euro">Euro</option>
+                                    <option value="Bitcoin">Bitcoin</option>
+                                </select>
+                                <button onclick="getCotacoes()">Atualizar cotação</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="lateral-d">
+                <textarea name="textareaTabela" id="textareaTabela" cols="1" rows="30">
+
+                </textarea>
 
             </div>
-            <p class="igual">=</p>
-            <div class="saida">
-                <div class="selecao">
-                    <input type="number" class="input-number" id="text-unidade-2" readonly>
-                    <select name="selecao-unidade-2" id="selecao-unidade-2" class="selecao-select"
-                        onchange="calcula()"></select>
-                </div>
-                <div class="arredondamento">
-                    <input type="range" min="0" max="8" value="3" class="slider" id="range-decimais"
-                        onchange="decimais()">
-                    <p id="text-decimais">casas decimais</p>
-                </div>
-            </div>
-            <div class="moedas">
-                <h2>Conversão de Moedas</h2>
-                <div class="container-moedas">
-                    <div class="container-textos-moedas">
-                        <div class="cotacoes-line">
-                            <span>Real: </span> <span id="cotacoes-real">Obtendo...</span>
-                        </div>
-                        <div class="cotacoes-line">
-                            <span>Dólar: </span> <span id="cotacoes-dolar">Obtendo...</span>
-                        </div>
-                        <div class="cotacoes-line">
-                            <span>Euro: </span> <span id="cotacoes-euro">Obtendo...</span>
-                        </div>
-                        <div class="cotacoes-line">
-                            <span>Bitcoin: </span> <span id="cotacoes-bitcoin">Obtendo...</span>
-                        </div>
-                    </div>
-                    <div class="container-comandos-moedas">
-                        <!-- <label for="selecao-moeda">Categoria:</label> -->
-                        <select name="selecao-moeda" id="selecao-moeda" class="selecao-moeda"
-                            onchange="printCotacoes()">
-                            <!-- <option value="" disabled selected>Moeda</option> -->
-                            <option value="Real">Real</option>
-                            <option value="Dolar">Dólar</option>
-                            <option value="Euro">Euro</option>
-                            <option value="Bitcoin">Bitcoin</option>
-                        </select>
-                        <button onclick="getCotacoes()">Atualizar cotação</button>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <footer>
-            <span class="contatos">Desenvolvido por Alessandro Feitosa - <a href="https://github.com/AlessandroFeitosa" target="_blank">Github</a> - Version: 0.1.0.2</span>
+            <span class="contatos">Desenvolvido por Alessandro Feitosa - <a href="https://github.com/AlessandroFeitosa"
+                    target="_blank">Github</a> - Version: 0.2.0.2</span>
         </footer>
     </section>
 </body>
