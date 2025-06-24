@@ -1640,7 +1640,7 @@
     },
     "149": {
     "nome": "Decanewton",
-    "coeficiente": 10000000000,
+    "coeficiente": 10,
     "sigla": "daN",
     "nick": "Decanewton (daN)",
     "sistema": "SI",
